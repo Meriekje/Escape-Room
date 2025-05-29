@@ -31,7 +31,6 @@ public class MongoDBConnection {
     }
 
     public static MongoDatabase getDatabase(
-
     ) {
         MongoClient mongoClient = getInstance();
         return mongoClient.getDatabase(MongoDBConfig.getDbDatabase());
