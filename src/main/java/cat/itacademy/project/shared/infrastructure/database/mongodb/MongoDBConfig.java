@@ -20,4 +20,7 @@ public class MongoDBConfig {
     public static String getString() {
         return CONNECTION_STRING;
     }
+    public static String getDbDatabase(){
+        return DB_DATABASE;
+    }
 }

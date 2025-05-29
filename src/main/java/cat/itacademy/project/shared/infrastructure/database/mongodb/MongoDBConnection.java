@@ -34,6 +34,6 @@ public class MongoDBConnection {
 
     ) {
         MongoClient mongoClient = getInstance();
-        return mongoClient.getDatabase("escape_room");
+        return mongoClient.getDatabase(MongoDBConfig.getDbDatabase());
     }
 }
