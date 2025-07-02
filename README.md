@@ -1,4 +1,4 @@
-# 🚪 Escape-Room Management System
+# 🚪 Escape-Room Management System.
 
 ## 🔍 Overview
 
